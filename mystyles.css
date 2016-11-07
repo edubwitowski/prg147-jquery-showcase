@@ -1,0 +1,124 @@
+body {
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    background: gray; }
+
+#container {
+    width: 960px;
+    background-color: #d7e1f2;
+    margin: 0 auto;
+    min-height: 1100px;
+    color:#444; }
+
+div.mybdr {border-style: solid;
+    border-width: 2px;
+    border-color: #444;
+    min-height: 500px;}
+
+#hdrImage {width: 100%;}
+
+.topLeft { position: absolute;
+    top: 20px;
+    left: 125px;
+    font-size: 18px;
+    color: white;}
+
+/* **********************************v*/
+
+#flash {cursor: pointer;}
+.flash {background-image: url('images/brightFlash.jpg');
+        background-size: cover;}
+
+/* **********************************v*/
+
+footer {background-color: navy;
+        position: absolute;
+        top: 1060px;
+        width: 930px;
+        height: 50px;
+        color: white;
+        padding: 5px;}
+footer p {margin: 0;}
+.right-footer {text-align: right;}
+.left-footer {text-align: left;}
+
+/* **********************************v*/
+
+#brightFlash img:hover {opacity: .5;}
+
+/* **********************************v*/
+
+#donkey, #elephant {position: absolute;
+    cursor: pointer;
+    width: 100px;
+    top: 300px;}
+#donkey {left: 325px;}
+#elephant {left: 675px;}
+
+/* **********************************v*/
+
+#Hillary1, #Donald1 {position: absolute;
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    top: 400px;}
+#Hillary1 {left: 275px;}
+#Donald1 {left: 625px;}
+
+/* **********************************v*/
+
+#clintonName, #trumpName {position: absolute;
+    width: 200px;
+    cursor: pointer;}
+#clintonName {left: 275px;
+    top: 620px;
+    height: auto;}
+#trumpName {left: 625px;
+    top: 630px;
+    height: 80px; }
+
+/* **********************************v*/
+
+ #capitol {position: absolute;
+        left: 30%;
+        top: 800px;}
+
+#checkbox1, #checkbox2
+    {position: absolute;
+    cursor: pointer;
+    width:75px;
+    top: 720px;}
+#checkbox1 {left: 30%;}
+#checkbox2 {left: 62%;}
+
+#pen {position: absolute;
+    cursor: pointer;
+    width: 100px;
+    left: 45%;
+    top: 610px;}
+
+/* **********************************v*/
+
+#voteLeft, #voteRight {cursor: pointer;
+        height: 150px;
+        width: auto;
+        position: absolute;
+        top: 175px;}
+#voteLeft {left: 100px;}
+#voteRight {left: 880px;}
+
+/* **********************************v*/
+
+#star {position: absolute;
+    cursor: pointer;
+    width: 150px;
+    left: 43%;
+    top: 300px;}
+
+.firework {display: none;
+        position: absolute;
+        top: 300px;}
+#pinkF {left: 10px;}
+#blueF {left: 750px;}
+#pinkF2, #blueF2 {top: 600px;}
+#pinkF2 {left: 750px;}
+#blueF2 {left: 10px;}
