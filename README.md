@@ -1,2 +1,2 @@
 # prg147-jquery-showcase
-A showcase webpage of jquery and jQueryU  - serious or silly. Topic: Election 2016
+A showcase webpage of jquery and jQueryUI  - serious or silly. Topic: Election 2016
